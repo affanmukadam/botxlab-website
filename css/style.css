@@ -1,0 +1,97 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background: linear-gradient(180deg,#090909,#111111,#090909);
+
+color:white;
+
+font-family: 'Space Grotesk', sans-serif;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
+}
+
+.hero{
+
+text-align:center;
+
+}
+
+.logo{
+
+width:180px;
+    margin-bottom:20px;
+
+}
+
+h1{
+
+ font-size:82px;
+    letter-spacing:6px;
+
+}
+
+h2{
+
+color:#00D9FF;
+
+margin-bottom:20px;
+
+font-weight:400;
+
+}
+
+p{
+
+color:#bdbdbd;
+
+font-size:20px;
+
+line-height:35px;
+
+margin-bottom:40px;
+
+}
+
+button{
+
+background:#00D9FF;
+
+color:black;
+
+font-size:18px;
+
+font-weight:bold;
+
+padding:16px 45px;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:.3s;
+
+box-shadow:0 0 25px rgba(0,217,255,.5);
+
+}
+
+button:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 0 45px rgba(0,217,255,.9);
+
+}
